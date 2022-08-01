@@ -5,3 +5,5 @@ Generating synthetic ITM data quickly
 This 2d raytrace takes advantage of the fact that:
 
 	len(ray) = max(abs(x_ray), abs(y_ray))
+	
+
