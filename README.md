@@ -1,7 +1,7 @@
 # ITM_DATAGEN
 Generating synthetic ITM data quickly
 
-## Ray trace
+## Ray trace to find max height
 This 2d raytrace takes advantage of the fact that:
 
 	len(ray) = max(abs(len_x_ray), abs(len_y_ray))
