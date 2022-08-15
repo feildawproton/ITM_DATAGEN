@@ -22,3 +22,13 @@ and,
 	
 And then just keeps track of the maximum height along the list (X,Y).
 	
+## Copy-compute overlap consideration
+Multi gpu parallelism and multi-stream overlap are not as simple as i: https://github.com/feildawproton/learning_synthetic_sigprop/
+
+This is becase the raytrace assumes the entire map between the source and destination is loaded.
+
+I suppos I could break the map into quadrants around the source.  But my guess is that parsing the copies would take more time than the copy-compute overlap would save.
+
+Maybe later...
+
+
